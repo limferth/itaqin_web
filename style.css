@@ -68,5 +68,40 @@ html {
 .main .main-resultados {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+}
+.main .main-resultados .main-resultados-titulo h2 {
+    color: var(--text-color-title);
+    font-size: 2.4rem;
+    margin: 0px 16px 16px 16px;
+}
+.main .main-resultados .main-resultados-descripcion {
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto;
+}
+.main-resultados-descripcion .img-descripcion{
+    width: 100%;
+    height: 240px;
+    background-image: url(/assets/img_resultados1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-resultados-descripcion .descripcion {
+    background: #021F59;
+    height: 100px;
+    border-radius: 0 0 16px 16px;
+}
+.main-resultados-descripcion .descripcion h4 {
+    padding: 16px 0 16px 0;
+    color: var(--text-white);
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+.main-resultados-descripcion .descripcion p {
+    color: var(--text-white);
+    font-size: 1.4rem;
 }
