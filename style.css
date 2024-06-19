@@ -1,0 +1,72 @@
+:root {
+    /* colores */
+    --blue-color: #021F59;
+    --blue: #011640;
+    --sky-blue: #0367A6;
+    --sky: #62B7D9;
+    --sky-blue-white: #5B98A6;
+    --white: #fff;
+    --dark: #000;
+    --text-color-title: #212121;
+    --color-text: #545454;
+    --text-white: #F6F6F6;
+    --fondo-white: #F9F9F9;
+    --color-dark: #474747;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    font-family: "Public Sans", sans-serif;
+}
+.main {
+    width: 100%;
+    height: auto;
+    background-color: var(--fondo-white);
+}
+
+.main .main-frase {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 64px 16px 48px 16px;
+    text-align: center;
+}
+.main .main-frase .main-frase-contenido {
+    padding-bottom: 32px;
+    margin-bottom: 16px;
+}
+.main .main-frase .main-frase-contenido h2 {
+    font-family: "Public Sans",  sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 42px;
+    line-height: 3.2rem;
+}
+.main .main-frase .main-frase-contenido a {
+    background-color: var(--sky-blue);
+    padding: 16px;
+    border-radius: 12px;
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.main .main-frase .main-frase-img {
+    width: 100%;
+    height: 500px;
+    background-image: url(/assets/img_portada_ceo.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main .main-resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
