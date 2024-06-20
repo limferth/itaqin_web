@@ -105,3 +105,99 @@ html {
     color: var(--text-white);
     font-size: 1.4rem;
 }
+/* main-contacto */
+.main-contacto {
+    width: 90%;
+    min-width: 288px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+}
+.main-contacto .main-contacto-head {
+    text-align: center;
+}
+.main-contacto-head h2 {
+    padding: 0px 0px 24px 0px;
+    font-size: 2.4rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 700;
+}
+.main-contacto-head p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 48px;
+}
+.main-contacto-head a {
+    background-color: var(--sky-blue);
+    color: var(--text-white);
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 1.6rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 700;
+}
+/* footer section */
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--text-color-title);
+    width: 100%;
+    min-width: 288px;
+    /* margin: 16px auto; */
+    padding: 16px;
+    color: var(--text-white);
+}
+.footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-container .footer-container-logo {
+    margin: 32px 0;
+}
+.footer-container .footer-container-politicas {
+    margin-bottom: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+.footer-container .footer-container-socialmedia{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container .footer-container-socialmedia figure {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    margin-bottom: 16px;
+}
+.footer-container .footer-container-socialmedia figure a img {
+    width: 24px;
+    height: 24px;
+}
+.footer-container .footer-container-socialmedia p {
+    margin-bottom: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footer-container .footer-container-web {
+    margin-bottom: 24px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+.footer .footer-made {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+
+}
