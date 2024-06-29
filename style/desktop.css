@@ -1,0 +1,7 @@
+.main-frase {
+    display: flex;
+    flex-direction: row;
+    min-width: 1440px;
+    margin: 0 auto;
+
+}
