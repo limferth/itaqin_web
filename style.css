@@ -23,6 +23,70 @@ html {
     font-family: "Inter", sans-serif;
     font-family: "Public Sans", sans-serif;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav{
+    position: inherit;
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-content: center;
+    align-items: center;
+    height: 84px;
+}
+.nav-logo{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo img{
+    fill: #fff;
+    height: 40px;
+}
+.nav-logo p{
+    font-size: 3.2rem;
+    color: var(--white);
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+}
+.nav ul a{
+    color: var(--white);
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.nav ul a:hover{
+    color: #0367A6;
+}
+.btn{
+    display: flex;
+    gap: 12px;
+}
+.btn button{
+    background-color: var(--blue-color);
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 8px 16px;
+    border-radius: 24px;
+    transition: all 0.3s ease;
+}
+
+.btn button:hover{
+    background-color: var(--white);
+    color: var(--blue-color);
+    border: transparent;
+}
+.menu-button{
+    display: none;
+}
 .main {
     width: 100%;
     height: auto;
