@@ -87,47 +87,80 @@ li{
 .menu-button{
     display: none;
 }
+/* subtitile */
+.subtitle {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
 .main {
     width: 100%;
     height: auto;
     background-color: var(--fondo-white);
 }
-
+/* seccion de presentacion */
 .main .main-frase {
     display: flex;
-    flex-direction: column;
     width: 100%;
     height: auto;
     padding: 64px 16px 48px 16px;
-    text-align: center;
+    /* text-align: center; */
+    /* margin: 0px 48px 0; */
 }
 .main .main-frase .main-frase-contenido {
-    padding-bottom: 32px;
-    margin-bottom: 16px;
+    padding:auto;
+    margin:24px;
+    justify-content: center;
+    /* align-content: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 .main .main-frase .main-frase-contenido h2 {
     font-family: "Public Sans",  sans-serif;
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     margin-bottom: 42px;
     line-height: 3.2rem;
+}
+.main-frase-contenido p{
+    font-size: 2.4rem;
+    line-height: 4rem;
+    margin-bottom: 32px;
 }
 .main .main-frase .main-frase-contenido a {
     background-color: var(--sky-blue);
     padding: 16px;
+    /* margin: 24px; */
     border-radius: 12px;
     color: var(--text-white);
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 700;
 }
-.main .main-frase .main-frase-img {
-    width: 100%;
+.main .main-frase .main-frase-img img{
+    width: 500px;
     height: 500px;
-    background-image: url(/assets/img_portada_ceo.jpg);
-    background-size:cover;
+    /* background-image: url(https://i.imgur.com/pAc6mIT.jpeg); */
+    object-fit: cover;
+    background-size:auto;
     background-position: center;
     background-repeat: no-repeat;
 }
+.main-frase-img img{
+    border-radius: 16px;
+}
+/* seccion de productos */
+.main-productos{
+    margin: 24px 16px;
+}
+.main-productos .productos{
+    display: flex;
+}
+.main-productos .productos .producto-alfa img{
+    width: 100;
+    height: 50px;
+}
+.main-productos 
+/* seccion de resultados */
 
 .main .main-resultados {
     display: flex;
