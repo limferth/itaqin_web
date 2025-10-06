@@ -51,6 +51,7 @@ li{
 }
 .nav-logo p{
     font-size: 3.2rem;
+    font-weight: 700;
     color: var(--white);
 }
 .nav ul{
@@ -89,6 +90,7 @@ li{
 }
 /* subtitile */
 .subtitle {
+    margin: 12px ;
     font-size: 2.4rem;
     font-weight: 500;
 }
@@ -126,7 +128,8 @@ li{
     line-height: 4rem;
     margin-bottom: 32px;
 }
-.main .main-frase .main-frase-contenido a {
+.main .main-frase .main-frase-contenido a,
+.exito .exito-left a {
     background-color: var(--sky-blue);
     padding: 16px;
     /* margin: 24px; */
@@ -258,6 +261,65 @@ line-height: 3rem;
 .free-services .two-parts .free-two-part .free-two-part-container a{
     color: var(--text-white);
 }
+
+/* section de caso de exito */
+.caso-exito {
+    width: 100%;
+    height: auto;
+
+}
+.caso-exito .exito {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 48px;
+    margin: 48px 164px;
+}
+
+.exito .exito-left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    background-color: var(--blue-color);
+}
+.exito .exito-left img{
+    width: 200px;
+    height: 200px;
+}
+.exito .exito-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.exito .exito-right p{
+    font-size: 1.6rem;
+
+}
+.exito .exito-right img{
+    width: 100px;
+    height: 100px;
+}
+.exito .exito-right .name{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+align-items: center;
+}
+.exito .exito-right .name p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.exito .exito-right .name h6 {
+    font-size: 1rem;
+}
+
 /* seccion de resultados */
 
 .main .main-resultados {
