@@ -1,211 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/tablet.css" media="min-width:744px">
-    <link rel="stylesheet" href="./style/desktop.css" media="min-width:930px">
-    <link rel="icon" href="https://i.imgur.com/0WXLVBm.jpg" type="imegen/jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ITAQIN impulsa MYPES con financiamiento empresarial, educación financiera, consultoría, software y comunidad.">
+  <title>ITAQIN | Financiamiento y crecimiento para MYPES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/Vectorisotipo.svg" type="image/svg+xml">
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-logo">
-            <img src="/assets/Vectorisotipo.svg" alt="logo de la startups">
-            <p>itaquin</p>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html"><img src="assets/itaqin_logotipo.svg" alt="ITAQIN"></a>
+      <nav class="nav-links" data-nav-links aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="casos-exito.html">Casos</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-secondary" href="faq.html">FAQ</a>
+        <a class="btn btn-primary" href="agenda-reunion.html">Agendar reunión</a>
+      </div>
+      <button class="menu-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false"><i class="ri-menu-3-line"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div data-animate>
+          <span class="eyebrow"><i class="ri-bank-card-line"></i> Fintech para MYPES en crecimiento</span>
+          <h1>Capital, herramientas y criterio financiero para escalar tu empresa.</h1>
+          <p class="lead">ITAQIN combina financiamiento empresarial, educación práctica, consultoría y software para que las MYPES tomen mejores decisiones y crezcan con estructura.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="agenda-reunion.html">Solicitar diagnóstico</a>
+            <a class="btn btn-secondary" href="productos.html">Explorar productos</a>
+          </div>
         </div>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">productos</a></li>
-            <li><a href="#">sobre nosotros</a></li>
-            <li><a href="#">Recursos</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-        <div class="btn">
-            <button class="ingresar">Iniciar Sesion</button>
-            <button class="ingresar">Registrarse</button>
+        <div class="hero-panel" data-animate>
+          <div class="hero-card">
+            <img src="assets/imagen_portada.jpg" alt="Emprendedora usando herramientas financieras de ITAQIN" loading="eager">
+          </div>
+          <div class="metric-strip">
+            <div class="metric"><strong data-count="100" data-suffix="k+">0</strong><span>Bs en financiamiento acompañado</span></div>
+            <div class="metric"><strong data-count="48" data-suffix="h">0</strong><span>para evaluación inicial</span></div>
+            <div class="metric"><strong data-count="4" data-suffix="x">0</strong><span>líneas de producto</span></div>
+            <div class="metric"><strong data-count="360" data-suffix="°">0</strong><span>acompañamiento empresarial</span></div>
+          </div>
         </div>
-        <button class="menu-button">
-            <i class="ri-menu-line"></i>
-        </button>
-    </nav>
+      </div>
+    </section>
 
-    <main class="main">
-        <section class="main-frase">
-            <div class="main-frase-contenido">
-                <h2>Consolidamos tu crecimiento, Juntos!</h2>
-                <p>proporciona nanocréditos accesibles con tasas de interés competitivas,accesible y servicios complementarios</p>
-                <div>
-                    <a href="">Comenzar ahora</a>
-                </div>  
-            </div>
-            <div class="main-frase-img"><img src="https://i.imgur.com/pAc6mIT.jpeg" alt=""></div>
-        </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <h2>Una plataforma de crecimiento, no solo crédito.</h2>
+          <p class="lead">Diseñamos soluciones para cada etapa: arranque, operación, expansión, gobierno corporativo y acceso a conocimiento.</p>
+        </div>
+        <div class="grid grid-4">
+          <article class="card" data-animate><span class="icon-box"><i class="ri-seedling-line"></i></span><h3>Crédito Semilla</h3><p>Capital inicial para validar, comprar equipos o lanzar nuevas líneas.</p><a class="btn btn-soft" href="productos/credito-semilla.html">Ver producto</a></article>
+          <article class="card" data-animate><span class="icon-box"><i class="ri-building-4-line"></i></span><h3>Crédito Empresa</h3><p>Financiamiento para inventario, capital operativo y expansión.</p><a class="btn btn-soft" href="productos/credito-empresa.html">Ver producto</a></article>
+          <article class="card" data-animate><span class="icon-box"><i class="ri-line-chart-line"></i></span><h3>Emisión de acciones</h3><p>Preparación financiera para atraer socios e inversión estratégica.</p><a class="btn btn-soft" href="productos/emision-acciones.html">Ver producto</a></article>
+          <article class="card" data-animate><span class="icon-box"><i class="ri-bank-card-2-line"></i></span><h3>Tarjeta empresarial</h3><p>Control de gastos, liquidez operativa y reportes por equipo.</p><a class="btn btn-soft" href="productos/tarjeta-credito.html">Ver producto</a></article>
+        </div>
+      </div>
+    </section>
 
-        <section class="main-productos">
-            <h2 class="subtitle">Como impulsar tu Empresa con nuestros productos</h2>
-            <div  class="productos">
-                <div class="producto-alfa">
-                    <img src="https://i.imgur.com/f1Pz6rb.jpeg" alt="imagen del producto">
-                    <h4>credito Semilla</h4>
-                    <p>Nuestro Crédito Semilla es el motor que necesitas para arrancar. Financiamos tu pasión, desde la compra de equipos hasta el desarrollo de tu producto, para que nada detenga tu visión. No es solo un préstamo, es una inversión en tu futuro.</p>
-                    <div class="link-container">
-                        <a href="#">Conocer mas</a>
-                    </div>
-                </div>
-                <div class="producto-alfa">
-                    <img src="https://i.imgur.com/01jnBKE.jpeg" alt="imagen del producto">
-                    <h4>Credito Empresa</h4>
-                    <p>Nuestro Crédito Empresa te da el oxígeno financiero que necesitas para escalar sin límites. Con tasas flexibles y un proceso ágil, nos adaptamos a tus necesidades para que te concentres en lo que mejor sabes hacer: crecer.</p>
-                    <div class="link-container">
-                        <a href="#">Conocer mas</a>
-                    </div>
-                </div>
-                <div class="producto-alfa">
-                    <img src="https://i.imgur.com/A7lMBj5.jpeg" alt="imagen del producto">
-                    <h4>Emision de Acciones</h4>
-                    <p>Con la Emisión de Acciones, abres las puertas de tu empresa a nuevos socios estratégicos y capital fresco.</p>
-                    <div class="link-container">
-                        <a href="#">Conocer mas</a>
-                    </div>
-                </div>
-                <div class="producto-alfa">
-                    <img src="https://i.imgur.com/jA1rj0q.jpeg" alt="imagen del producto">
-                    <h4>Targeta de Credito</h4>
-                    <p>on nuestro programa de recompensas y total control desde nuestra app, manejar tus finanzas nunca fue tan fácil y seguro. No te preocupes por el mañana, paga a tu ritmo.</p>
-                    <div class="link-container">
-                        <a href="#">Conocer mas</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="free-services">
-            <div class="two-parts">
-                <div class="free-one-parts">
-                    <h3>servicos fremiun complementarios</h3>
-                    <p>Transformar el panorama educativo y tecnologico para los directivos  de las MYPES, proporcionando recursos y capacitacion que impulsen su eficiencia y competitividad.</p>
-                </div>
+    <section class="section section-soft">
+      <div class="container split">
+        <div data-animate>
+          <span class="eyebrow">Cómo funciona</span>
+          <h2>De la evaluación al crecimiento medible.</h2>
+          <div class="steps">
+            <div class="step"><h3>Diagnóstico financiero</h3><p>Entendemos ventas, flujo de caja, costos, historial y objetivo de crecimiento.</p></div>
+            <div class="step"><h3>Producto recomendado</h3><p>Definimos la alternativa de capital y servicios con menor fricción operativa.</p></div>
+            <div class="step"><h3>Acompañamiento</h3><p>Monitoreamos indicadores, educación financiera y herramientas para mejorar gestión.</p></div>
+          </div>
+        </div>
+        <div class="feature-image" data-animate>
+          <img src="assets/img_contacto.jpg" alt="Equipo asesorando a una empresa" loading="lazy">
+        </div>
+      </div>
+    </section>
 
-                <div class="free-two-part">
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/1Bp0Vko.jpeg" alt="">
-                        <p>Acceso gratuito a consultores expertos. Acelera tu negocio con nuestra asesoría personalizada sin costo.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/aDw4iqy.jpeg" alt="">
-                        <p>Guía personal de expertos. Impulsa tu carrera, proyectos y liderazgo sin costo alguno.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/ICXzi0o.jpeg" alt="">
-                        <p>Herramientas empresariales completas, sin costo. Gestiona, crece y optimiza tu negocio hoy.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/9gY3od6.jpeg" alt="">
-                        <p>Conocimiento empresarial sin costo, siempre a tu alcance. Guías, artículos y éxito.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/ISSNtoh.jpeg" alt="">
-                        <p>Crea videos que conectan. Aprende a vender e impactar con poderosas narrativas visuales.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/f1Pz6rb.jpeg" alt="">
-                        <p>Finanzas para tu negocio. Gestiona inteligentemente y aprende a invertir tu dinero.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/J8Aqsyu.jpeg" alt="">
-                        <p>Diseña como profesional, sin costo. Desbloquea tu creatividad y crea proyectos impactantes.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                    <div class="free-two-part-container">
-                        <img src="https://i.imgur.com/VZjZWdL.jpeg" alt="">
-                        <p>Domina el marketing digital. Aprende estrategias ganadoras para impulsar tu marca hoy mismo.</p>
-                        <div><a href="#">Adquirir gratis</a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="caso-exito">
-            <h2 class="subtitle">Casos de Exito</h2>
-            <div class="exito">
-                <div class="exito-left">
-                    <img src="/assets/img_exito_portada.jpg" alt="foto de la compania">
-                    <a href="#">Comenzar ahora</a>
-                </div>  
-                <div class="exito-right">
-                    <p>Intentamos probar otras instituciones financieras, pero el proceso era muy engorroso y las aprobaciones lentas. Encontramos en Xepelin algo cercano y rápido Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad qui odit, ipsum corporis temporibus debitis aperiam repudiandae aliquam nihil! Nisi possimus officia fugit blanditiis quos illum aliquam dolorem libero vel!</p>
-                    <img src="/assets/img_perfil_exito.jpg" alt="peril de usuario">
-                    <div class="name">
-                        <p>Santi Fernandez</p>
-                        <h6>CEO RECLICLA CHI</h6>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="main-resultados">
-            <div class="main-resultados-titulo">
-                <h2>Nos sentimos orgullosos de nuestro resultados que impactan</h2>
-            </div>
-            <section class="main-resultados-descripcion">
-                <div>
-                    <div class="img-descripcion"><img src="" alt=""></div>
-                    <div class="descripcion">
-                        <h4> + 100 mil Bs</h4>
-                        <p>En financiamiento Empresarial</p>
-                    </div>
-                </div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </section>
-        </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <h2>Servicios que aumentan la probabilidad de éxito.</h2>
+          <p class="lead">Capital sin gestión crea deuda. ITAQIN integra mentoría, consultoría, educación y software para mejorar ejecución.</p>
+        </div>
+        <div class="grid grid-4">
+          <article class="card" data-animate><img src="assets/imagen1_servicios.jpg" alt="Mentoría empresarial" loading="lazy"><h3>Mentorías</h3><p>Sesiones con expertos para resolver decisiones comerciales, financieras y operativas.</p></article>
+          <article class="card" data-animate><img src="assets/imagen2_servicios.jpg" alt="Consultoría empresarial" loading="lazy"><h3>Consultoría</h3><p>Planes de mejora para flujo de caja, ventas, costos, procesos y reportes.</p></article>
+          <article class="card" data-animate><img src="assets/imagen3_servicios.jpg" alt="Educación financiera" loading="lazy"><h3>Educación financiera</h3><p>Programas prácticos para directivos y equipos de MYPES.</p></article>
+          <article class="card" data-animate><img src="assets/imagen4_servicios.jpg" alt="Software empresarial" loading="lazy"><h3>Software empresarial</h3><p>Herramientas para ordenar información y medir indicadores clave.</p></article>
+        </div>
+      </div>
+    </section>
 
-        <section class="main-contacto">
-            <div class="main-contacto-head">
-                <h2>Agenda una reunion</h2>
-                <p>para conocer mas sobre ITAQIN y sus productos que potenciaran tu crecimiento</p>
-                <a href="/">solicitar Credito</a>
-            </div>
-            <div class="main-contacto-img"><img src="" alt=""></div>
-        </section>
-    </main>
+    <section class="section section-dark">
+      <div class="container split">
+        <div data-animate>
+          <span class="eyebrow">Casos de éxito</span>
+          <h2>Empresas que reemplazaron improvisación por gestión.</h2>
+          <p class="lead">Acompañamos a MYPES que necesitaban acceso a capital, estructura financiera y disciplina comercial.</p>
+          <div class="cta-row"><a class="btn btn-secondary" href="casos-exito.html">Ver historias</a></div>
+        </div>
+        <article class="card testimonial" data-animate>
+          <p>“ITAQIN nos ayudó a ordenar flujo de caja, financiar inventario y tomar decisiones con indicadores. El crédito llegó acompañado de criterio.”</p>
+          <div class="person"><img src="assets/img_perfil_exito.jpg" alt="Cliente de ITAQIN"><div><strong>Santi Fernández</strong><br><span>CEO, ReciClA CHI</span></div></div>
+        </article>
+      </div>
+    </section>
 
-    <footer class="footer">
-        <section class="footer-container">
-            <div class="footer-container-logo"><img src="/assets/logo_footer.svg" alt="logo de la empresa"></div>
-            <div class="footer-container-politicas">
-                <p>Terminos y condiciones</p>
-                <p>Politica de privacidad</p>
-            </div>
-            <div class="footer-container-socialmedia">
-                <figure>
-                    <a href="/"><img src="/assets/icono_facebook.svg" alt="facebook"></a>
-                    <a href="/"><img src="/assets/icono_instagram.svg" alt="intagram"></a>
-                    <a href="/"><img src="/assets/icono_linkedin.svg" alt="linkedin"></a>
-                    <a href="/"><img src="/assets/icono_twitter.svg" alt="twitter"></a>
-                    <a href="/"><img src="/assets/icono_youtube.svg" alt="youtube"></a>
-                </figure>
-                <p>contactanos!!!</p>
-            </div>
-            <div class="footer-container-web">
-                <p>www.itaqin.com</p>
-                <p>team@itaqin.com</p>
-            </div>
-        </section>
-        <section class="footer-made">
-            <p>hecho con amor por itaqin inc | todos los derechos reservados</p>
-        </section>
-    </footer>
+    <section class="section">
+      <div class="container">
+        <div class="cta-band" data-animate>
+          <h2>Conversemos sobre la siguiente etapa de tu empresa.</h2>
+          <p class="lead">Agenda un diagnóstico y recibe una ruta inicial de capital, gestión y herramientas.</p>
+          <div class="cta-row">
+            <a class="btn btn-secondary" href="agenda-reunion.html">Agendar reunión</a>
+            <button class="btn btn-soft" data-open-modal>Recibir resumen</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <h2>Preguntas frecuentes</h2>
+          <p class="lead">Respuestas rápidas antes de iniciar tu evaluación.</p>
+        </div>
+        <div class="faq-list">
+          <article class="faq-item" data-animate><button class="faq-question" data-faq-question aria-expanded="false">¿ITAQIN presta solo dinero?<i class="ri-add-line"></i></button><div class="faq-answer">No. Integramos financiamiento con educación, consultoría, software y comunidad para mejorar el uso del capital.</div></article>
+          <article class="faq-item" data-animate><button class="faq-question" data-faq-question aria-expanded="false">¿Qué empresas pueden aplicar?<i class="ri-add-line"></i></button><div class="faq-answer">MYPES con operación activa, necesidad clara de capital y disposición para ordenar su información financiera.</div></article>
+          <article class="faq-item" data-animate><button class="faq-question" data-faq-question aria-expanded="false">¿Cuánto tarda la evaluación?<i class="ri-add-line"></i></button><div class="faq-answer">La evaluación inicial puede realizarse en 48 horas si la empresa entrega la información básica solicitada.</div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col"><a class="brand" href="index.html"><img src="assets/logo_footer.svg" alt="ITAQIN"></a><p>Financiamiento, software y conocimiento para MYPES que quieren crecer con estructura.</p><div class="social"><a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a><a href="https://www.instagram.com/" aria-label="Instagram"><i class="ri-instagram-line"></i></a><a href="https://www.youtube.com/" aria-label="YouTube"><i class="ri-youtube-line"></i></a></div></div>
+      <div class="footer-col"><h3>Compañía</h3><a href="sobre-nosotros.html">Sobre nosotros</a><a href="equipo.html">Equipo</a><a href="casos-exito.html">Casos de éxito</a><a href="blog.html">Blog</a></div>
+      <div class="footer-col"><h3>Soluciones</h3><a href="productos.html">Productos</a><a href="servicios.html">Servicios</a><a href="educacion-financiera.html">Educación financiera</a><a href="software-empresarial.html">Software empresarial</a></div>
+      <div class="footer-col"><h3>Contacto</h3><p>team@itaqin.com</p><p>La Paz, Bolivia</p><a href="terminos.html">Términos</a><a href="privacidad.html">Privacidad</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 ITAQIN. Todos los derechos reservados.</span><span>Construido para MYPES de alto potencial.</span></div>
+  </footer>
+
+  <div class="modal" data-modal role="dialog" aria-modal="true" aria-label="Resumen de ITAQIN">
+    <div class="modal-dialog">
+      <div class="modal-head"><h2>Resumen ejecutivo</h2><button class="modal-close" data-close-modal aria-label="Cerrar"><i class="ri-close-line"></i></button></div>
+      <p>ITAQIN ofrece capital y acompañamiento para MYPES: créditos, emisión de acciones, tarjetas, educación, consultoría y software empresarial.</p>
+      <a class="btn btn-primary" href="contacto.html">Hablar con el equipo</a>
+    </div>
+  </div>
+  <button class="back-to-top" data-back-to-top aria-label="Volver arriba"><i class="ri-arrow-up-line"></i></button>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
 </body>
 </html>
