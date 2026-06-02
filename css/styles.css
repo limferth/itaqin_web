@@ -203,7 +203,7 @@ textarea {
   border-radius: 999px;
   color: var(--blue-800);
   background: rgba(255, 255, 255, 0.7);
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -219,8 +219,8 @@ h1,
 .display {
   margin-bottom: 20px;
   color: var(--blue-900);
-  font-size: clamp(2.4rem, 8vw, 5.4rem);
-  line-height: 0.98;
+  font-size: clamp(2.4rem, 4vw, 5.4rem);
+  line-height: 1.2;
   letter-spacing: 0;
 }
 
@@ -308,10 +308,13 @@ h3 {
 }
 
 .section-dark {
-  color: var(--white);
+  color: var(--muted);
   background:
     radial-gradient(circle at 20% 10%, rgba(98, 183, 217, 0.22), transparent 26%),
     linear-gradient(135deg, var(--blue-900), var(--blue-800));
+}
+.section-dark p{
+  
 }
 
 .section-dark h2,
